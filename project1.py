@@ -2,12 +2,12 @@ import random
 import math
 
 
-def roll():
-    min_val = 1;
-    max_val = 6;
-    roll = random.randint(min_val, max_val)
+#def roll():
+   # min_val = 1;
+    #max_val = 6;
+    #roll = random.randint(min_val, max_val)
 
-    return roll
+    #return roll
 
 #value = roll()
 #print(value)
@@ -57,3 +57,5 @@ while max(player_scores) < max_score:
 max_score = max(player_scores)
 winning_idx = player_scores.index(max_score)
 print("Player", winning_idx + 1, "wins with a score of", max_score)
+
+#new change
