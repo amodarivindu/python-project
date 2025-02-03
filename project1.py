@@ -23,5 +23,5 @@ while True:
     else:
         print("Number of players must be a digit")
 
-print(players)
+print("This is the correct number of players:", players)
     
